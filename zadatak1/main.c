@@ -1,11 +1,27 @@
 #include <stdio.h>
 
-int main ()
+void PrintResult(int res)
 {
-	void PrintResult(int res)
-	{
 		printf("Result: %d/n", res);
-	}
+}
 
+int Calculation (int 1, int b)
+{
+	if (a < b)
+		return a - b;
+	else
+		return b - a;
+}
+
+int main()
+{
+	int a = 3;
+	int b = 8;
+	int c;
+	
+	c = Calculation(a, b);
+	PrintResult(c);
+	
 	return 0;
 }
+	
